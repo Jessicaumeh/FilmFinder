@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Film Finder </title>
+  <!-- style sheets -->
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/style2.css">
+</head>
+<body>
+<!-- Header -->
+  <div class="header">
+    <img class="logo" src="img/logo.png" alt="logo" width="70" height="60">
+	<a href="About.html">About</a>
+    <a href="Contact.html">Contact</a>
+	<a href="MyAccount.html">MyAccount</a>
+    <a class="active" href="Home.html">Home</a>
+</div>
+
+  <!-- Search form -->
+  <div class="search">
+  <h1>Countless films, TV series, and individuals to explore. Investigate right away. </h1>
+  <div class="search-wrapper">
+    <form id="search-form">
+      <input type="text" id="search" name="search" placeholder="Search...">
+      <button type="submit">Search</button>
+    </form>
+  </div>
+</div>
+
+  <!-- Trending -->
+  <div id="trending-container">
+  <h1> Trending</h1>
+  </div>
+  
+  <!-- Search Results -->
+  <div id="movie-container"></div>
+  
+  <!-- JavaScript -->
+  <script src="javascript/film.js"></script>
+  
+</body>
+</html>
